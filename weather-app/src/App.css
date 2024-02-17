@@ -1,0 +1,89 @@
+/* WeatherApp.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ecf0f1;
+}
+
+.weather-app {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  max-width: 600px; /* Set your desired fixed width */
+  margin: 0 auto; /* Center the content horizontally */
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 15px;
+  width: 70%;
+  margin-right: 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.error-message {
+  font-size: 1.2em;
+  color: #e74c3c;
+  margin-top: 20px;
+}
+
+.weather-details {
+  max-width: 500px; /* Set your desired width */
+  width: 100%; /* Take up the full width within the parent container */
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+}
+
+.additional-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.additional-details p {
+  margin-bottom: 10px;
+}
+
+/* Add more styles and enhancements based on your preferences */
